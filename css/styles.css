@@ -54,7 +54,7 @@ p {
 /* Download buttons */
 
 .dw-button {
-  margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 3%;
 }
 
 /* title image */
@@ -120,6 +120,27 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Cta section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 10% 3%;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 0;
+}
+.footer-icon {
+  padding: 10px 10px;
+}
+
 @media (max-width: 1023px) {
   #title {
     text-align: center;
@@ -128,24 +149,4 @@ p {
     position: static;
     transform: rotate(0);
   }
-}
-
-/* Cta section */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
-  padding-top: 80px;
-}
-
-/* Footer section */
-
-#footer {
-  background-color: #fff;
-  text-align: center;
-  padding: 30px;
-}
-.footer-icon {
-  padding: 10px 10px;
 }
